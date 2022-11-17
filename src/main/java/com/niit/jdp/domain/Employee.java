@@ -7,19 +7,26 @@
 
 package com.niit.jdp.domain;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Employee {
     private int employeeId;
     private String empoyeeName;
     private String employeeSalary;
+    private Department department;
+
 
     public Employee() {
     }
 
-    public Employee(int employeeId, String empoyeeName, String employeeSalary) {
+    @Autowired
+    public Employee(int employeeId, String empoyeeName, String employeeSalary, Department department) {
         this.employeeId = employeeId;
         this.empoyeeName = empoyeeName;
         this.employeeSalary = employeeSalary;
+        this.department = department;
     }
+
 
     public int getEmployeeId() {
         return employeeId;
@@ -45,12 +52,21 @@ public class Employee {
         this.employeeSalary = employeeSalary;
     }
 
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
                 "employeeId=" + employeeId +
                 ", empoyeeName='" + empoyeeName + '\'' +
                 ", employeeSalary='" + employeeSalary + '\'' +
+                ", department=" + department +
                 '}';
     }
 }
