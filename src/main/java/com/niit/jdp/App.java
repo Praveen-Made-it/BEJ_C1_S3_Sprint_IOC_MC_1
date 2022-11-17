@@ -14,6 +14,8 @@ public class App {
 
         // Getting the bean from the Spring container.
         Employee employee = context.getBean("employee1", Employee.class);
+        // Printing the employee object.
+        System.out.println("employee : " + employee);
 
     }
 }
