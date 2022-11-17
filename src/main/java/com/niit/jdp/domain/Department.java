@@ -26,4 +26,12 @@ public class Department {
     public void setDepartmentId(int departmentId) {
         this.departmentId = departmentId;
     }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "departmentId=" + departmentId +
+                ", departmentName='" + departmentName + '\'' +
+                '}';
+    }
 }
