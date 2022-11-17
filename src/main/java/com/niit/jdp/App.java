@@ -1,4 +1,4 @@
-package org.example;
+package com.niit.jdp;
 
 /**
  * Hello world!
