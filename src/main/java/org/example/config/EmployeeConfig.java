@@ -5,10 +5,10 @@
  */
 
 
-package com.niit.jdp.config;
+package org.example.config;
 
-import com.niit.jdp.domain.Department;
-import com.niit.jdp.domain.Employee;
+import org.example.domain.Department;
+import org.example.domain.Employee;
 import org.springframework.context.annotation.Bean;
 
 public class EmployeeConfig {

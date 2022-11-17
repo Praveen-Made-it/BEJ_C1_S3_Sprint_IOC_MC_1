@@ -5,7 +5,7 @@
  */
 
 
-package com.niit.jdp.domain;
+package org.example.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

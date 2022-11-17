@@ -5,7 +5,7 @@
  */
 
 
-package com.niit.jdp.domain;
+package org.example.domain;
 
 public class Department {
     private int departmentId;
