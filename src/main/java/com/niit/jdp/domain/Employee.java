@@ -44,4 +44,13 @@ public class Employee {
     public void setEmployeeSalary(String employeeSalary) {
         this.employeeSalary = employeeSalary;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "employeeId=" + employeeId +
+                ", empoyeeName='" + empoyeeName + '\'' +
+                ", employeeSalary='" + employeeSalary + '\'' +
+                '}';
+    }
 }
