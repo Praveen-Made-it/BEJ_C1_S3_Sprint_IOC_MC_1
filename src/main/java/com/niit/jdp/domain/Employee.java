@@ -20,4 +20,28 @@ public class Employee {
         this.empoyeeName = empoyeeName;
         this.employeeSalary = employeeSalary;
     }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public String getEmpoyeeName() {
+        return empoyeeName;
+    }
+
+    public void setEmpoyeeName(String empoyeeName) {
+        this.empoyeeName = empoyeeName;
+    }
+
+    public String getEmployeeSalary() {
+        return employeeSalary;
+    }
+
+    public void setEmployeeSalary(String employeeSalary) {
+        this.employeeSalary = employeeSalary;
+    }
 }
