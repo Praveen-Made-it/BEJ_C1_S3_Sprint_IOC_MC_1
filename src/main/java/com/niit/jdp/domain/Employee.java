@@ -15,11 +15,14 @@ public class Employee {
     private String employeeSalary;
     private Department department;
 
+    @Autowired
+    public Employee(Department department) {
+        this.department = department;
+    }
 
     public Employee() {
     }
 
-    @Autowired
     public Employee(int employeeId, String empoyeeName, String employeeSalary, Department department) {
         this.employeeId = employeeId;
         this.empoyeeName = empoyeeName;
