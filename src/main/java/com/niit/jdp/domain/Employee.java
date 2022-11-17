@@ -11,4 +11,13 @@ public class Employee {
     private int employeeId;
     private String empoyeeName;
     private String employeeSalary;
+
+    public Employee() {
+    }
+
+    public Employee(int employeeId, String empoyeeName, String employeeSalary) {
+        this.employeeId = employeeId;
+        this.empoyeeName = empoyeeName;
+        this.employeeSalary = employeeSalary;
+    }
 }
